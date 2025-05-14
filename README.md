@@ -28,4 +28,5 @@ This is a **Neural Style Transfer Tool** that allows users to blend the *content
 3. **Style Transfer**: The content image is optimized to adopt the style image's patterns using Gram matrices.
 4. **Output Generation**: The final image is rendered and displayed in the browser with an option to save it.
 
+
 This project was developed as part of my internship at ** CODTECH IT Solutions** (Task 3)
