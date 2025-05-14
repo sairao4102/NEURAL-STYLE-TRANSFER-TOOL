@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neural Style Transfer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    display: flex; 
+     align-items: center; 
+     justify-content: center;
+    background-color: #343148ff; /* Yellow-green */ 
+    /* Yellow-green (#BAFF39), dim grey (#6E6E6E), white (#FFFFFF) */
+    /* Beige (#DDD0C8), dark grey (#323232) */
+        }
+        input[type=file] {
+            margin: 10px;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 30%;
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        .container {
+    margin-top: 100px;
+    width: 65%;
+    max-width: 820px;
+    /* margin: auto; */
+    background: #fff;
+    padding: 30px;
+
+
+    border-radius: 20px;
+
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+
+    /* box-shadow: 0 0 15px rgba(0,0,0,0.1); */
+
+
+    background-color: #d7c49eff;
+    /* background-color: rgba(215, 196, 158, 0.639) ;  */
+    ; /* Yellow-green */
+
+    color: #323232;
+
+    /* box-shadow: 0px 0px 30px #D7C49EFF; */
+
+   
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <h1>TASK-3</h1>
+    <h1>Neural Style Transfer</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Select Content Image:</label><br>
+        <input type="file" name="content" required><br><br>
+        <label>Select Style Image:</label><br>
+        <input type="file" name="style" required><br><br>
+        <button type="submit">Generate Stylized Image</button>
+        <h2>It"s takes for a while please wait</h2>
+    </form>
+
+    {% if output_url %}
+    
+    <div class="image-container"">
+        <h2>Results:</h2>
+        <div class="img" style="align-items: center;justify-content: center;">
+        <div class="img1" style="display: flex;flex-direction: row;justify-content: center;align-items: center;">
+        <p style="margin-right: 30px;"><strong>Content Image</strong></p><br>
+        <p style="margin-left: 30px;"><strong>Style Image</strong></p><br>
+        </div>
+        <div class="img2" style="display: flex;flex-direction: row;justify-content: center;align-items: center;">
+        <img src="{{ content_url }}" alt="Content" style="margin-right: 30px;">
+       
+        <img src="{{ style_url }}" alt="Style" style="margin-left: 30px;">
+        </div>
+        </div>
+        <p><strong>Stylized Output</strong></p>
+        <img src="{{ output_url }}" alt="Output">
+    </div>
+    {% endif %}
+    </div>
+</body>
+</html>
