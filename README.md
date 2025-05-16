@@ -1,5 +1,19 @@
 # Neural Style Transfer Tool
 
+**COMPANY**: CODTECH IT SOLUTIONS
+
+**NAME**: KIRANSAI AREPELLI
+
+**INTERN ID**: C0DF51
+
+**DOMAIN**: Artificial Intelligence Markup Language
+
+**DURATION**: 4 WEEKS
+
+**MENTOR**: NEELA SANTOSH KUMAR
+
+## Description
+
 This is a **Neural Style Transfer Tool** that allows users to blend the *content of one image* with the *style of another*, generating a stunning stylized image using deep learning techniques. The tool uses a pre-trained VGG19 model to extract features and apply artistic styles from one image to another.
 
 
