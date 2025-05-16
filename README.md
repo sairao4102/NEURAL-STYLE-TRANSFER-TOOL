@@ -67,4 +67,12 @@ python app.py
 Access the Application:
 Web Interface: Open [http://127.0.0.1:5000] in your browser
 
+# OUTPUT
+
+![Image](https://github.com/user-attachments/assets/4ab8cca6-d59f-4180-a3b9-24823d4a3f7e)
+
+![Image](https://github.com/user-attachments/assets/714b6ca7-927c-47f7-a699-7dbc3b53d1b9)
+
+
+
 -- >This project was developed as part of my internship at ** CODTECH IT Solutions** (Task 3)
