@@ -28,5 +28,29 @@ This is a **Neural Style Transfer Tool** that allows users to blend the *content
 3. **Style Transfer**: The content image is optimized to adopt the style image's patterns using Gram matrices.
 4. **Output Generation**: The final image is rendered and displayed in the browser with an option to save it.
 
+##  How to Use
 
-This project was developed as part of my internship at ** CODTECH IT Solutions** (Task 3)
+### 1. **Clone the repository**
+
+```bash
+git clone [https://github.com/sairao4102/SPEECH-TRANSCRIPTION-TOOL.git]
+cd GPT-TEXT-GENERATOR-TOOL
+```
+
+### 2.  Requirements
+
+Install all dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+### 3. **Run the application**
+
+```bash
+python app.py
+```
+
+Access the Application:
+Web Interface: Open [http://127.0.0.1:5000] in your browser
+
+-- >This project was developed as part of my internship at ** CODTECH IT Solutions** (Task 3)
